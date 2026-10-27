@@ -440,3 +440,42 @@ body.light-theme {
   color: var(--color-muted);
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .topbar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 14px 10px;
+  }
+
+  .topbar .brand {
+    grid-column: 1;
+    grid-row: 1;
+    min-width: 0;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+  }
+
+  .topbar #theme-toggle {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+    max-width: 100%;
+    min-height: 40px;
+    padding: 8px 10px;
+    font-size: 0.78rem;
+    white-space: nowrap;
+  }
+
+  .topbar .nav-links {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px 18px;
+    min-width: 0;
+  }
+}
