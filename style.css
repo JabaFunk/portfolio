@@ -395,3 +395,15 @@ h1 span {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Эти значения включаются, когда у body появляется класс light-theme */
+body.light-theme {
+  color-scheme: light;
+  --color-background: #f7f7fb;
+  --color-surface: #ffffff;
+  --color-surface-hover: #eeeef5;
+  --color-text: #17171c;
+  --color-muted: #656575;
+  --color-accent: #6d4aff;
+  --color-border: rgba(20, 20, 30, 0.12);
+}
