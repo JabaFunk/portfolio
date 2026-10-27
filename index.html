@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Настройка масштаба для мобильных устройств -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Портфолио начинающего фронтенд-разработчика"
+  >
+
+  <title>Портфолио — JabaFunk</title>
+
+  <!-- Подключение таблицы стилей -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <!-- Шапка сайта: краткое описание и навигация -->
+    <header class="hero" id="about">
+      <nav class="topbar" aria-label="Основная навигация">
+        <a class="brand" href="#about">ПОРТФОЛИО<span>.</span></a>
+
+        <div class="nav-links">
+          <a href="#skills">Навыки</a>
+          <a href="#projects">Проекты</a>
+          <a href="#contacts">Контакты</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <p class="eyebrow">Начинающий фронтенд-разработчик</p>
+
+        <h1>Привет, я <span>JabaFunk</span></h1>
+
+        <p class="hero-description">
+          Изучаю фронтенд и создаю удобные, понятные и адаптивные сайты.
+          Сейчас ищу возможность развиваться в команде и применять знания на практике.
+        </p>
+
+        <a class="button button-primary" href="#projects">
+          Смотреть проекты
+          <span aria-hidden="true">↘</span>
+        </a>
+      </div>
+
+      <div class="hero-decoration" aria-hidden="true"></div>
+    </header>
+
+    <main>
+      <!-- Список технологий и навыков -->
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Что я использую</p>
+          <h2>Мои навыки</h2>
+        </div>
+
+        <ul class="skills-list">
+          <li class="skill-card">
+            <span class="skill-number">01</span>
+            <h3>HTML</h3>
+            <p>Семантическая и доступная структура страниц</p>
+          </li>
+
+          <li class="skill-card">
+            <span class="skill-number">02</span>
+            <h3>CSS</h3>
+            <p>Адаптивная вёрстка, Flexbox и Grid</p>
+          </li>
+
+          <li class="skill-card">
+            <span class="skill-number">03</span>
+            <h3>JavaScript</h3>
+            <p>Интерактивность и логика интерфейсов</p>
+          </li>
+
+          <li class="skill-card">
+            <span class="skill-number">04</span>
+            <h3>React</h3>
+            <p>Компонентный подход к созданию интерфейсов</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Сетка из четырёх карточек-заглушек для будущих проектов -->
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Практика и эксперименты</p>
+          <h2>Мои проекты</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card" aria-label="Место для проекта 1">
+            <span class="project-number">01</span>
+            <span class="project-plus" aria-hidden="true">+</span>
+            <p>Проект скоро появится</p>
+          </article>
+
+          <article class="project-card" aria-label="Место для проекта 2">
+            <span class="project-number">02</span>
+            <span class="project-plus" aria-hidden="true">+</span>
+            <p>Проект скоро появится</p>
+          </article>
+
+          <article class="project-card" aria-label="Место для проекта 3">
+            <span class="project-number">03</span>
+            <span class="project-plus" aria-hidden="true">+</span>
+            <p>Проект скоро появится</p>
+          </article>
+
+          <article class="project-card" aria-label="Место для проекта 4">
+            <span class="project-number">04</span>
+            <span class="project-plus" aria-hidden="true">+</span>
+            <p>Проект скоро появится</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Контакты: замени адреса в href на свои -->
+      <section class="section contacts-section" id="contacts">
+        <div class="section-heading">
+          <p class="eyebrow">Будем на связи</p>
+          <h2>Контакты</h2>
+        </div>
+
+        <p class="contacts-description">
+          Открыт к предложениям о работе и интересным проектам.
+        </p>
+
+        <div class="contact-links">
+          <a
+            class="button button-secondary"
+            href="https://github.com/JabaFunk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub <span aria-hidden="true">↗</span>
+          </a>
+
+          <a
+            class="button button-secondary"
+            href="https://t.me/JabaFunk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Telegram <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 JabaFunk</p>
+      <a href="#about">Наверх ↑</a>
+    </footer>
+  </div>
+</body>
+</html>
