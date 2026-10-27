@@ -407,3 +407,25 @@ body.light-theme {
   --color-accent: #6d4aff;
   --color-border: rgba(20, 20, 30, 0.12);
 }
+
+.project-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 50px 24px 24px;
+}
+
+.project-content h3 {
+  margin-bottom: 8px;
+  color: var(--color-text);
+  font-size: 1.2rem;
+}
+
+.project-content p {
+  margin-bottom: 18px;
+}
+
+.project-link {
+  min-height: 40px;
+  font-size: 0.85rem;
+}
